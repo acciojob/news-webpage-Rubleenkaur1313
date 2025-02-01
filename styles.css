@@ -1,1 +1,54 @@
-/*  your css code here. If applicable */
+* General Styles */
+body {
+    background-color: #f5f5f5; /* Body background color */
+    margin: 0; /* Remove default margin */
+    font-family: Arial, sans-serif; /* Set a default font */
+}
+
+/* Header Styles */
+.header {
+    background-color: #011e29; /* Header background color */
+    color: white; /* Text color */
+    text-align: center; /* Center alignment */
+    padding: 20px; /* Padding around the header */
+}
+
+/* Latest News Section Styles */
+.latest-news-section {
+    background-color: #f5f5f5; /* Background color for latest news section */
+    padding: 20px; /* Padding */
+    width: 80%; /* Width of the section */
+    margin: 20px auto; /* Center the section */
+    border: 1px solid #ccc; /* Optional: border for visual separation */
+    border-radius: 8px; /* Optional: rounded corners */
+}
+
+.latest-news-section h3 {
+    margin-top: 0; /* Remove top margin for the heading */
+}
+
+.latest-news-section ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+}
+
+.latest-news-section li {
+    margin: 10px 0; /* Space between list items */
+}
+
+/* Pictorial News Section Styles */
+.pictorial-news-section {
+    background-color: #f5f5f5; /* Background color for pictorial news section */
+    padding: 20px; /* Padding */
+    width: 80%; /* Width of the section */
+    margin: 20px auto; /* Center the section */
+    text-align: center; /* Center text */
+    border: 1px solid #ccc; /* Optional: border for visual separation */
+    border-radius: 8px; /* Optional: rounded corners */
+}
+
+.pictorial-news-section img {
+    width: 30%; /* Set width of images */
+    margin: 10px; /* Space around images */
+    border-radius: 5px; /* Optional: rounded 
+
